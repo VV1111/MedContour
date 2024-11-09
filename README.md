@@ -5,20 +5,20 @@ Objective: Develop a user-friendly graphical user interface (GUI) for automatic 
 
 ## Main Features:
 ### Interactive Annotation
-     Users can click on key points through the GUI to mark specific locations on the image.
+Users can click on key points through the GUI to mark specific locations on the image.
 ### Automatic Contour Generation
-    The software uses an optimization algorithm to generate contour lines based on the user-marked key points.
+The software uses an optimization algorithm to generate contour lines based on the user-marked key points.
 ### Real-time Display
-    The contour dynamically updates in the user interface, providing visual feedback.
+The contour dynamically updates in the user interface, providing visual feedback.
 
 
 ## Existing packages
 ### Image Processing Libraries
-#### OpenCV
-#### scikit-image
+OpenCV
+scikit-image
 
 ### GUI Frameworks
-#### Tkinter
+Tkinter
 
 
 
