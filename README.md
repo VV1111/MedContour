@@ -14,11 +14,11 @@ The contour dynamically updates in the user interface, providing visual feedback
 
 ## Existing packages
 ### Image Processing Libraries
-OpenCV
-scikit-image
+    OpenCV
+    scikit-image
 
 ### GUI Frameworks
-Tkinter
+    Tkinter
 
 
 
