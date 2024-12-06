@@ -471,7 +471,7 @@ class ImageSegmentationApp(QMainWindow):
             self.result[..., self.current_slice] = self.display_result
 
     def save_result(self):
-        # 弹出对话框让用户选择保存选项
+        # Pop up a dialog box to let the user select a save option
         response, ok = QInputDialog.getItem(
             self, "Save Options", "Choose an option:", ["Save current slice", "Save all slices"], 0, False
         )
