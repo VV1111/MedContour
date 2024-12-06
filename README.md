@@ -18,7 +18,7 @@ The contour dynamically updates in the user interface, providing visual feedback
     scikit-image
 
 ### GUI Frameworks
-    Tkinter
+    Pyqt5
 
 
 
