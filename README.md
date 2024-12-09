@@ -40,7 +40,19 @@ The package consists of several key components:
 - **`setup.py`**: This is the setup script to install the package.
 - **`README.md`**: Project description and documentation.
 
-image_segmentation/ ├── image_segmentation/ # Main package folder │ ├── init.py # Package initialization file │ ├── main.py # Main application file │ ├── utils.py # Utility functions │ └── TestImageSegmentationApp.py # GUI application code ├── example/ # Example images or data │ ├── volume-2.nii.gz # Example medical image │ └── .DS_Store # macOS system file (ignore) ├── requirements.txt # Project dependencies ├── setup.py # Installation script ├── README.md # Project description and documentation └── test_dilation.py # Unit test for dilation └── test_erosion.py # Unit test for erosion
+medicalcontour/ 
+├── medicalcontour/ # Main package folder 
+│ ├── init.py # Package initialization file 
+│ ├── main.py # Main application file 
+│ ├── utils.py # Utility functions 
+│ └── TestImageSegmentationApp.py # GUI application code 
+├── example/ # Example images or data 
+│ ├──slice.png
+│ ├── volume-2.nii.gz # Example medical image 
+├── requirements.txt # Project dependencies 
+├── setup.py # Installation script 
+├── README.md # Project description and documentation 
+
 
 
 ## Installation
