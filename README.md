@@ -31,18 +31,30 @@ The package consists of several key components:
 
 ### Structure:
 ├──  **`medicalcontour/`**: This is the main directory containing the Python modules that implement the core functionality of the image segmentation package.
+
 │ ├── **`__init__.py`**: Makes `medicalcontour` a Python package.
+
 │ ├── **`main.py`**: Contains the main logic for running the segmentation tasks.
+
 │ ├── **`utils.py`**: Contains utility functions to handle image processing and other helper methods.
 
 │ ├── **`TestImageSegmentationApp.py`**: Contains the PyQt5 code for the graphical user interface (GUI) for testing image segmentation.
 
 ├──  **`example/`**: This folder contains example files used for testing or demonstrating the segmentation package. For example, it includes sample medical images.
 
+├──  **`docs/`**:
+
+│ ├── **`Component Specification.md`**:
+
+│ ├── **`Functional Specification.md`**:
+
+│ ├── **`present.pdf`**:
 
 ├── **`requirements.txt`**: This file lists the Python libraries and their versions required to run the project.
 
 ├── **`setup.py`**: This is the setup script to install the package.
+
+├── **`demo.mov`**: To see the capabilities of the medical contour extraction tool in action, you can check out the demo below. The demo demonstrates the core functionality of the medical contour extraction and its graphical user interface:
 
 ├── **`README.md`**: Project description and documentation.
 
