@@ -43,9 +43,13 @@ The package consists of several key components:
 medicalcontour/ 
 ├── medicalcontour/ # Main package folder 
 │ ├── init.py # Package initialization file 
+
 │ ├── main.py # Main application file 
+
 │ ├── utils.py # Utility functions 
-│ └── TestImageSegmentationApp.py # GUI application code 
+
+│ └── TestImageSegmentationApp.py # GUI application code
+ 
 ├── example/ # Example images or data 
 │ ├──slice.png
 │ ├── volume-2.nii.gz # Example medical image 
