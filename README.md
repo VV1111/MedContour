@@ -5,8 +5,8 @@ This package provides a user-friendly graphical user interface (GUI) for automat
 
 ## Features
 
-- **Main Application**: The core functionality of the package provides an interface for running image segmentation tasks.
-- **GUI Application**: A PyQt5-based GUI to visualize and interact with segmentation results.
+- **Main Application**: The core functionality of the package provides an interface for automatic contour annotation on medical images.
+- **GUI Application**: A PyQt5-based GUI to visualize and interact with contour extraction results.
 - **Utility Functions**: Includes a set of utility functions for image processing, such as handling images and interacting with medical imaging data.
 
 ## Components
@@ -31,15 +31,15 @@ The package consists of several key components:
 
 ### Structure:
 
-    - **`medicalcontour/`**: This is the main directory containing the Python modules that implement the core functionality of the image segmentation package.
-    - **`__init__.py`**: Makes `medicalcontour` a Python package.
-    - **`main.py`**: Contains the main logic for running the segmentation tasks.
-    - **`utils.py`**: Contains utility functions to handle image processing and other helper methods.
-    - **`TestImageSegmentationApp.py`**: Contains the PyQt5 code for the graphical user interface (GUI) for testing image segmentation.
-    - **`example/`**: This folder contains example files used for testing or demonstrating the segmentation package. For example, it may include sample medical images.
-    - **`requirements.txt`**: This file lists the Python libraries and their versions required to run the project.
-    - **`setup.py`**: This is the setup script to install the package.
-    - **`README.md`**: Project description and documentation.
+- **`medicalcontour/`**: This is the main directory containing the Python modules that implement the core functionality of the image segmentation package.
+- **`__init__.py`**: Makes `medicalcontour` a Python package.
+- **`main.py`**: Contains the main logic for running the segmentation tasks.
+- **`utils.py`**: Contains utility functions to handle image processing and other helper methods.
+- **`TestImageSegmentationApp.py`**: Contains the PyQt5 code for the graphical user interface (GUI) for testing image segmentation.
+- **`example/`**: This folder contains example files used for testing or demonstrating the segmentation package. For example, it may include sample medical images.
+- **`requirements.txt`**: This file lists the Python libraries and their versions required to run the project.
+- **`setup.py`**: This is the setup script to install the package.
+- **`README.md`**: Project description and documentation.
 
 ## Installation
 
