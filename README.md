@@ -101,7 +101,13 @@ Usage
 Running the Main Application
 To run the main application (which is likely a command-line interface or core functionality of the package), use the following command:
 
-    python -m medicalcontour.main
+    
+    from medicalcontour.main import main
+
+    main()
+
+    # or
+    python -m medicalcontour.main 
 
 This will execute the main() function in the main.py file, starting the primary functionality of the segmentation application.
 
