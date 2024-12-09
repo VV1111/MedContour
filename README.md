@@ -30,15 +30,17 @@ The package consists of several key components:
 
 
 ### Structure:
-- **`medicalcontour/`**: This is the main directory containing the Python modules that implement the core functionality of the image segmentation package.
-- **`__init__.py`**: Makes `medicalcontour` a Python package.
-- **`main.py`**: Contains the main logic for running the segmentation tasks.
-- **`utils.py`**: Contains utility functions to handle image processing and other helper methods.
-- **`TestImageSegmentationApp.py`**: Contains the PyQt5 code for the graphical user interface (GUI) for testing image segmentation.
-- **`example/`**: This folder contains example files used for testing or demonstrating the segmentation package. For example, it may include sample medical images.
-- **`requirements.txt`**: This file lists the Python libraries and their versions required to run the project.
-- **`setup.py`**: This is the setup script to install the package.
-- **`README.md`**: Project description and documentation.
+├──  **`medicalcontour/`**: This is the main directory containing the Python modules that implement the core functionality of the image segmentation package.
+│ ├── **`__init__.py`**: Makes `medicalcontour` a Python package.
+│ ├── **`main.py`**: Contains the main logic for running the segmentation tasks.
+│ ├── **`utils.py`**: Contains utility functions to handle image processing and other helper methods.
+│ ├── **`TestImageSegmentationApp.py`**: Contains the PyQt5 code for the graphical user interface (GUI) for testing image segmentation.
+├──  **`example/`**: This folder contains example files used for testing or demonstrating the segmentation package. For example, it may include sample medical images.
+│ ├──  ** `slice.png/`
+│ ├── ** `volume-2.nii.gz /` 
+├── **`requirements.txt`**: This file lists the Python libraries and their versions required to run the project.
+├── **`setup.py`**: This is the setup script to install the package.
+├── **`README.md`**: Project description and documentation.
 
 medicalcontour/ 
 ├── medicalcontour/ # Main package folder 
@@ -49,7 +51,7 @@ medicalcontour/
 │ ├── utils.py # Utility functions 
 
 │ └── TestImageSegmentationApp.py # GUI application code
- 
+
 ├── example/ # Example images or data 
 │ ├──slice.png
 │ ├── volume-2.nii.gz # Example medical image 
