@@ -37,11 +37,8 @@ The package consists of several key components:
 
 │ ├── **`TestImageSegmentationApp.py`**: Contains the PyQt5 code for the graphical user interface (GUI) for testing image segmentation.
 
-├──  **`example/`**: This folder contains example files used for testing or demonstrating the segmentation package. For example, it may include sample medical images.
+├──  **`example/`**: This folder contains example files used for testing or demonstrating the segmentation package. For example, it includes sample medical images.
 
-│ ├──  ** `slice.png/`
-
-│ ├── ** `volume-2.nii.gz /` 
 
 ├── **`requirements.txt`**: This file lists the Python libraries and their versions required to run the project.
 
