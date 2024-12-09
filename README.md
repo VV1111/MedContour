@@ -1,5 +1,5 @@
 
-# Image Segmentation Package
+# medical contour extraction Package
 
 This package provides a user-friendly graphical user interface (GUI) for automatic contour annotation on medical images. Users can mark key points on the image by clicking, and the software will automatically generate and display the contour based on these key points.
 
@@ -30,17 +30,17 @@ The package consists of several key components:
 
 
 ### Structure:
-├──  **`medicalcontour/`**: This is the main directory containing the Python modules that implement the core functionality of the image segmentation package.
+├──  **`medicalcontour/`**: This is the main directory containing the Python modules that implement the core functionality of the medical contour extraction package.
 
 │ ├── **`__init__.py`**: Makes `medicalcontour` a Python package.
 
-│ ├── **`main.py`**: Contains the main logic for running the segmentation tasks.
+│ ├── **`main.py`**: Contains the main logic for running the  medical contour extraction tasks.
 
 │ ├── **`utils.py`**: Contains utility functions to handle image processing and other helper methods.
 
-│ ├── **`TestImageSegmentationApp.py`**: Contains the PyQt5 code for the graphical user interface (GUI) for testing image segmentation.
+│ ├── **`Testcomponent.py`**: Contains the PyQt5 code for the graphical user interface (GUI) for testing image  medical contour extraction.
 
-├──  **`example/`**: This folder contains example files used for testing or demonstrating the segmentation package. For example, it includes sample medical images.
+├──  **`example/`**: This folder contains example files used for testing or demonstrating the s medical contour extraction package. For example, it includes sample medical images.
 
 ├──  **`docs/`**:
 
@@ -109,12 +109,12 @@ To run the main application (which is likely a command-line interface or core fu
     # or
     python -m medicalcontour.main 
 
-This will execute the main() function in the main.py file, starting the primary functionality of the segmentation application.
+This will execute the main() function in the main.py file, starting the primary functionality of the medical contour extraction application.
 
 Running the GUI Application
-If you would like to test the segmentation with a graphical user interface, run the GUI application using:
-    python -m medicalcontour.TestImageSegmentationApp
-This will open the GUI window where you can interact with the segmentation process.
+If you would like to test the  medical contour extraction with a graphical user interface, run the GUI application using:
+    python -m medicalcontour.Testcomponent
+This will open the GUI window where you can interact with the  medical contour extraction process.
 
 Utility Functions
 To use utility functions from utils.py, simply import them into your script:
