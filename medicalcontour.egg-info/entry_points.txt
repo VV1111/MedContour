@@ -1,0 +1,3 @@
+[console_scripts]
+medicalcontour = medicalcontour.main:main
+
