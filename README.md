@@ -45,6 +45,7 @@ To use this package, you need to have Python 3.6 or higher installed. The packag
 
 
 Alternatively, you can install the dependencies directly using:
+    
     pip install -r requirements.txt
 
 Usage
