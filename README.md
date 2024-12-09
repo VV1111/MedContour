@@ -30,7 +30,6 @@ The package consists of several key components:
 
 
 ### Structure:
-
 - **`medicalcontour/`**: This is the main directory containing the Python modules that implement the core functionality of the image segmentation package.
 - **`__init__.py`**: Makes `medicalcontour` a Python package.
 - **`main.py`**: Contains the main logic for running the segmentation tasks.
@@ -40,6 +39,9 @@ The package consists of several key components:
 - **`requirements.txt`**: This file lists the Python libraries and their versions required to run the project.
 - **`setup.py`**: This is the setup script to install the package.
 - **`README.md`**: Project description and documentation.
+
+image_segmentation/ ├── image_segmentation/ # Main package folder │ ├── init.py # Package initialization file │ ├── main.py # Main application file │ ├── utils.py # Utility functions │ └── TestImageSegmentationApp.py # GUI application code ├── example/ # Example images or data │ ├── volume-2.nii.gz # Example medical image │ └── .DS_Store # macOS system file (ignore) ├── requirements.txt # Project dependencies ├── setup.py # Installation script ├── README.md # Project description and documentation └── test_dilation.py # Unit test for dilation └── test_erosion.py # Unit test for erosion
+
 
 ## Installation
 
