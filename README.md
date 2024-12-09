@@ -90,7 +90,7 @@ To use this package, you need to have Python 3.6 or higher installed. The packag
 3. Install the package and dependencies using pip:
 
    ```bash
-   pip install .
+   pip install medicalcontour
 
 
 Alternatively, you can install the dependencies directly using:
